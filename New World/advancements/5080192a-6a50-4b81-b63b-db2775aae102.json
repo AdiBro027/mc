@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2023-04-01 15:14:02 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_stained_glass": {
     "criteria": {
       "has_glass": "2023-04-01 09:24:33 +0530"
@@ -1007,11 +1013,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2023-04-01 15:35:31 +0530",
       "minecraft:skeleton": "2023-03-31 17:07:33 +0530",
       "minecraft:ghast": "2023-03-31 19:42:44 +0530",
       "minecraft:hoglin": "2023-03-31 18:07:53 +0530",
       "minecraft:spider": "2023-04-01 10:30:03 +0530",
       "minecraft:creeper": "2023-03-31 17:16:35 +0530",
+      "minecraft:slime": "2023-04-01 14:41:30 +0530",
       "minecraft:zombified_piglin": "2023-04-01 06:20:12 +0530",
       "minecraft:witch": "2023-04-01 10:26:53 +0530",
       "minecraft:cave_spider": "2023-03-31 16:54:45 +0530",
@@ -1105,9 +1113,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2023-04-01 15:14:02 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_nether_bricks": "2023-03-31 20:20:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2023-04-01 14:41:39 +0530"
     },
     "done": true
   },
@@ -1573,6 +1593,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2023-04-01 14:41:39 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2023-03-31 16:54:46 +0530"
@@ -1807,6 +1833,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2023-04-01 14:41:39 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2023-03-31 16:33:56 +0530"
@@ -1835,10 +1867,12 @@
     "criteria": {
       "minecraft:cold_ocean": "2023-04-01 12:55:51 +0530",
       "minecraft:forest": "2023-03-31 16:33:03 +0530",
+      "minecraft:taiga": "2023-04-01 15:37:01 +0530",
       "minecraft:deep_cold_ocean": "2023-04-01 12:56:05 +0530",
       "minecraft:birch_forest": "2023-04-01 13:05:05 +0530",
       "minecraft:beach": "2023-03-31 16:34:37 +0530",
       "minecraft:river": "2023-03-31 16:35:39 +0530",
+      "minecraft:birch_forest_hills": "2023-04-01 15:12:41 +0530",
       "minecraft:swamp": "2023-04-01 12:58:32 +0530",
       "minecraft:plains": "2023-03-31 16:32:52 +0530"
     },
@@ -1901,6 +1935,12 @@
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_other": "2023-03-31 20:01:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2023-04-01 14:42:46 +0530"
     },
     "done": true
   },
@@ -2162,6 +2202,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2023-03-31 16:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2023-04-01 15:14:02 +0530"
     },
     "done": true
   },
